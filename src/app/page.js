@@ -32,7 +32,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center justify-between md:px-40 px-4 pt-32 gap-8 mb-20">
         <div className="flex-1">
-          <p className="text-2xl text-white mb-2">Hello, I'm</p>
+          <p className="text-2xl text-white mb-2">Hello, Am</p>
           <h1 className="text-4xl md:text-6xl bg-gradient-to-r from-red-500 via-violet-500 to-pink-500 bg-clip-text text-transparent font-bold">
             Prajak Sritong
           </h1>
@@ -87,17 +87,17 @@ export default function Home() {
                 <pre className="pre">
                   <code>-&nbsp;</code>
                   <code>npm&nbsp;</code>
-                  <code className="cmd"></code>
+                  <code data-cmd="npm run dev" className="cmd"></code>
                 </pre>
                 <pre className="pre">
                   <code>-&nbsp;</code>
                   <code>npx&nbsp;</code>
-                  <code className="cmd"></code>
+                  <code data-cmd="npx expo start" className="cmd"></code>
                 </pre>
                 <pre className="pre">
                   <code>-&nbsp;</code>
-                  <code>coust&nbsp;</code>
-                  <code className="cmd"></code>
+                  <code>const&nbsp;</code>
+                  <code data-cmd="x=5" className="cmd"></code>
                 </pre>
               </div>
             </div>
@@ -108,12 +108,12 @@ export default function Home() {
       <div className=" py-10 mx-30">
         <Marquee speed={200}>
           <div className="gap-40 flex items-center justify-center mx-10">
-            <img className="w-24 h-24 rounded-sm" src="/Python.png" />
-            <img className="w-24 h-24 rounded-sm" src="/HTML5.png" />
-            <img className="w-24 h-24 rounded-sm" src="/Next.js.png" />
-            <img className="w-24 h-24 rounded-sm" src="/PHP.png" />
-            <img className="w-24 h-24 rounded-sm" src="/Tailwind CSS.png" />
-            <img className="w-24 h-24 rounded-sm" src="/JavaScript.png" />
+            <img className="w-24 h-24 rounded-sm" src="/Python.png" alt="Python" />
+            <img className="w-24 h-24 rounded-sm" src="/HTML5.png" alt="HTML5" />
+            <img className="w-24 h-24 rounded-sm" src="/Next.js.png" alt="Next.js" />
+            <img className="w-24 h-24 rounded-sm" src="/PHP.png" alt="PHP" />
+            <img className="w-24 h-24 rounded-sm" src="/Tailwind CSS.png" alt="Tailwind CSS" />
+            <img className="w-24 h-24 rounded-sm" src="/JavaScript.png" alt="JavaScript" />
           </div>
         </Marquee>
       </div>
@@ -146,7 +146,7 @@ export default function Home() {
         </h3>
         <div className=" mb-10">
           <p className="text-gray-300">
-            I'm a passionate web developer with a love for creating beautiful
+            Im a passionate web developer with a love for creating beautiful
             and functional user experiences. My journey in tech started with a
             curiosity for how things work, and it has evolved into a
             full-fledged career where I get to solve problems and bring ideas to
